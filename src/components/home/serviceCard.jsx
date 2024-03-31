@@ -39,7 +39,7 @@ const ServiceCard = ({
             href={"/contact-us"}
             className={`${primary.bg} p-3 py-2 flex items-center gap-2 overflow-hidden group text-white`}
           >
-            <span className="w-6 h-6 inline-block -translate-x-10 group-hover:translate-x-0 max-md:translate-x-0 transition-all duration-300 stroke-current">
+            <span className="w-6 h-6 inline-block -translate-x-10 group-hover:translate-x-0 max-md:translate-x-0 transition-all duration-300 fill-white stroke-white">
               <ContactInformationHelp />
             </span>
             Inquire Now
