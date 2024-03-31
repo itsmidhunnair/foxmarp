@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
-    body {
-        @apply bg-orange-50
-    }
-} */
+@layer base {
+    .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+}

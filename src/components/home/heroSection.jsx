@@ -13,17 +13,17 @@ const HeroSection = () => {
       <div className="flex-1">
         <Image src={heroImg} alt="hero_img" className="w-full" priority />
       </div>
-      <div className="md:p-16 flex-1 max-md:text-center font-bold text-neutral-700">
-        <h2 className="text-7xl pb-6">Hello</h2>
-        <h4 className="capitalize tracking-wide font-bold text-xl text-neutral-500">
+      <div className="md:p-16 flex-1 max-md:text-center flex flex-col justify-center font-bold text-neutral-700">
+        <h2 className="text-7xl pb-6 antialiased animate-fade1">Hello</h2>
+        <h4 className="capitalize tracking-wide font-bold text-xl animate-fade15 text-neutral-500">
           We&apos;re repainting things around here to greet you again in better
           spirits. We&apos;ll be back soon!
         </h4>
-        <p className="font-light pt-2 leading-relaxed md:w-2/3 text-neutral-400">
+        <p className="font-light pt-2 leading-relaxed md:w-2/3 animate-fade2 text-neutral-400">
           However, brand magicians are never off-duty! Till we&apos;re back
           here, you can contact us on:
         </p>
-        <div className="flex gap-4 mt-8 justify-between">
+        {/* <div className="flex gap-4 mt-8 justify-between">
           {circleLinks.map((link) => (
             <div
               key={link.link}
@@ -32,7 +32,7 @@ const HeroSection = () => {
               {link.text}
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

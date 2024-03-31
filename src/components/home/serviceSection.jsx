@@ -7,6 +7,7 @@ import graphics from "@assets/images/homepage/services/graphics.webp";
 import printing from "@assets/images/homepage/services/printing.webp";
 
 import ServiceCard from "./serviceCard";
+import { SectionTitle } from "@components/common";
 
 const ServiceSection = () => {
   const serviceList = [
@@ -96,11 +97,8 @@ const ServiceSection = () => {
   };
 
   return (
-    <div>
-      <div className="relative w-max">
-        <h2 className="text-5xl font-bold text-neutral-700">Services</h2>
-        <div className="h-2 w-2/3 mt-2 bg-yellow-500" />
-      </div>
+    <div id="services" className="pt-16">
+      <SectionTitle title="Services" />
       <div className="mt-6 grid gap-4 grid-cols-2">{renderServices()}</div>
     </div>
   );
