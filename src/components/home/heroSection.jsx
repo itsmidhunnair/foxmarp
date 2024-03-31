@@ -10,7 +10,7 @@ const HeroSection = () => {
 
   return (
     <div className="flex w-full h-full max-md:flex-col">
-      <div className="flex-1">
+      <div className="flex-1 max-sm:pt-12">
         <Image src={heroImg} alt="hero_img" className="w-full" priority />
       </div>
       <div className="md:p-16 flex-1 max-md:text-center flex flex-col justify-center font-bold text-neutral-700">

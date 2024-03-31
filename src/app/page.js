@@ -1,5 +1,5 @@
 "use server"
-import { ClientSection, HeroSection, ServiceSection } from "@components/home";
+import { ClientSection, ContactUsSection, HeroSection, ServiceSection } from "@components/home";
 
 export default async function Home() {
   return (
@@ -7,6 +7,7 @@ export default async function Home() {
       <HeroSection />
       <ServiceSection />
       <ClientSection />
+      <ContactUsSection />
     </div>
   );
 }
