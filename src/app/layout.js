@@ -6,8 +6,8 @@ import { Footer } from "@components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Foxmarp",
-  description: "Foxmarp Website",
+  title: "Foxmarc",
+  description: "Foxmarc Website",
 };
 
 export default function RootLayout({ children }) {

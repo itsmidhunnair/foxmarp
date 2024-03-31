@@ -3,7 +3,7 @@ import Image from "next/image";
 const ClientCards = ({ logo, alt }) => {
   return (
     <div className="snap-start max-sm:first:pl-8">
-      <div className="w-48 border p-4 rounded-sm">
+      <div className="w-48 p-4 rounded-sm">
         <Image
           src={logo}
           alt={alt}
