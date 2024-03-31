@@ -13,10 +13,14 @@ const ServiceCard = ({
 }) => {
   const primary = { bg: primaryColorBg, text: primaryColorText };
   return (
-    <div className={`w-full h-80 flex p-12 ${bgColor}`}>
-      <div className="w-2/3 flex flex-col justify-between">
-        <div>
-          <h4 className={`text-3xl capitalize font-bold ${primary.text} w-1/2`}>
+    <div
+      className={`w-full h-80 flex p-12 ${bgColor} max-sm:flex-col-reverse max-sm:h-auto max-sm:p-6`}
+    >
+      <div className="sm:w-2/3 flex flex-col justify-between">
+        <div className="max-sm:mt-4">
+          <h4
+            className={`text-3xl capitalize font-bold ${primary.text} w-full sm:w-1/2`}
+          >
             {title}
           </h4>
           <p className={`font-light pt-3 ${primary.text}`}>{subTitle}</p>
@@ -42,7 +46,7 @@ const ServiceCard = ({
           </Link>
         </div>
       </div>
-      <div className="w-1/3 flex justify-end">
+      <div className="w-1/3 flex justify-end min-w-36 max-sm:mx-auto">
         <Image
           src={img}
           alt="card_img"
