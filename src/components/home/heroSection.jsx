@@ -19,9 +19,9 @@ const HeroSection = () => {
           We&apos;re repainting things around here to greet you again in better
           spirits. We&apos;ll be back soon!
         </h4>
-        <p className="font-light pt-2 leading-relaxed md:w-2/3 animate-fade2 text-neutral-400">
+        <p className="font-normal pt-2 leading-relaxed md:w-2/3 animate-fade2 text-neutral-500">
           However, brand magicians are never off-duty! Till we&apos;re back
-          here, you can contact us on:
+          here, you can contact us on: +91 99256 91691
         </p>
         {/* <div className="flex gap-4 mt-8 justify-between">
           {circleLinks.map((link) => (
