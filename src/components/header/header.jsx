@@ -28,9 +28,9 @@ const Header = () => {
 
   return (
     <>
-      <div className="fixed h-16 top-0 left-0 right-0 shadow-lg z-40 bg-white">
+      <div className="fixed h-24 top-0 left-0 right-0 shadow-lg z-40 bg-white">
         <div className="container mx-auto h-full w-full flex items-center sm:px-12 px-6 justify-between">
-          <div className="w-32">
+          <div className="w-44">
             <Image
               src={logo}
               alt="card_img"
@@ -40,7 +40,7 @@ const Header = () => {
           </div>
           <button
             onClick={() => setNavbar(!navbar)}
-            className="sm:hidden w-12 h-12 stroke-black"
+            className="sm:hidden w-12 h-12 stroke-neutral-700"
           >
             <Hamburger />
           </button>
@@ -61,7 +61,7 @@ const Header = () => {
         </div>
       </div>
       <div
-        className={`sm:hidden overflow-hidden z-30 fixed top-16 bg-white w-full flex flex-col gap-6 shadow-md ${
+        className={`sm:hidden overflow-hidden z-30 fixed top-24 bg-white w-full flex flex-col gap-6 shadow-md transition-all duration-300 ${
           navbar ? "h-36 py-4" : "h-0 py-0"
         }`}
       >

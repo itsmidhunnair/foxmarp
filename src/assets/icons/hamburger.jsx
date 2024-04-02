@@ -9,19 +9,19 @@ const Hamburger = () => {
       <path
         d="M4 18H10"
         className="stroke-current"
-        strokeWidth="2"
+        strokeWidth="1"
         strokeLinecap="round"
       />
       <path
         d="M4 12L16 12"
         className="stroke-current"
-        strokeWidth="2"
+        strokeWidth="1"
         strokeLinecap="round"
       />
       <path
         d="M4 6L20 6"
         className="stroke-current"
-        strokeWidth="2"
+        strokeWidth="1"
         strokeLinecap="round"
       />
     </svg>
